@@ -9,6 +9,6 @@ namespace GameReviews.Models
         public string Descricao { get; set; }
         public Plataforma Plataforma { get; set; }
 
-        public IList<Reviews> Reviews { get; set; }
+        public IList<Review> Reviews { get; set; }
     }
 }

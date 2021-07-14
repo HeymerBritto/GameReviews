@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GameReviews.Models
 {
-    public class Reviews : ModeloBase
+    public class Review : ModeloBase
     {
         public Guid JogoId { get; set; }
         public string Review { get; set; }
