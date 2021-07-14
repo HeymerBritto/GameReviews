@@ -9,7 +9,7 @@ namespace GameReviews.Models
     public class Review : ModeloBase
     {
         public Guid JogoId { get; set; }
-        public string Review { get; set; }
+        public string Descricao { get; set; }
         public int Nota { get; set; }
     }
 }
