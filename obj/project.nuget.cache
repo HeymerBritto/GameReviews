@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "J2ZH9mg4MgiAkSQsSJ6PJMpn4BKbhLkYGcNEXbg0KPdtLWluzME45rWVQcqVGVHth8tUzoYaqe6orZzSjxi1Lg==",
+  "dgSpecHash": "hARY2NmLL0wdC783m+4zvgpAR4Mb6nhNmZkNNdJtGF0XMs8j3RyMjERfUmIfZ+uNzehm0Mqig3oADKYzZqjCGg==",
   "success": true,
   "projectFilePath": "C:\\Users\\heyme\\source\\repos\\GameReviews\\GameReviews.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\heyme\\.nuget\\packages\\autofac\\6.2.0\\autofac.6.2.0.nupkg.sha512",
+    "C:\\Users\\heyme\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
     "C:\\Users\\heyme\\.nuget\\packages\\graphql\\4.5.0\\graphql.4.5.0.nupkg.sha512",
     "C:\\Users\\heyme\\.nuget\\packages\\graphql-parser\\7.1.0\\graphql-parser.7.1.0.nupkg.sha512",
     "C:\\Users\\heyme\\.nuget\\packages\\graphql.dataloader\\4.1.0\\graphql.dataloader.4.1.0.nupkg.sha512",
