@@ -40,41 +40,27 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Autofac": {
-              "target": "Package",
-              "version": "[6.2.0, )"
-            },
-            "Autofac.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[7.1.0, )"
-            },
-            "GraphQL": {
-              "target": "Package",
-              "version": "[4.5.0, )"
-            },
-            "GraphQL.Server.Transports.AspNetCore": {
+            "GraphQL.Server.Ui.Voyager": {
               "target": "Package",
               "version": "[5.0.2, )"
             },
-            "GraphQL.Server.Ui.Altair": {
+            "HotChocolate.AspNetCore": {
               "target": "Package",
-              "version": "[5.0.2, )"
+              "version": "[11.3.1, )"
             },
-            "GraphQL.SystemTextJson": {
+            "HotChocolate.Data.EntityFramework": {
               "target": "Package",
-              "version": "[4.5.0, )"
+              "version": "[11.3.1, )"
             },
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.8, )"
             },
-            "Microsoft.EntityFrameworkCore.InMemory": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[5.0.8, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[5.6.3, )"
             }
           },
           "imports": [

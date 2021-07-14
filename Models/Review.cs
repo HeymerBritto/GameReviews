@@ -1,4 +1,5 @@
 ﻿using GameReviews.Models.Abstract;
+using HotChocolate;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,8 +9,9 @@ namespace GameReviews.Models
 {
     public class Review : ModeloBase
     {
-        public Guid JogoId { get; set; }
         public string Descricao { get; set; }
         public int Nota { get; set; }
+        public Guid JogoId { get; set; }
+        public Jogo Jogo { get; set; }
     }
 }

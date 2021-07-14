@@ -1,5 +1,6 @@
 ﻿using GameReviews.Enums;
 using GameReviews.Models.Abstract;
+using HotChocolate;
 using System.Collections.Generic;
 
 namespace GameReviews.Models
